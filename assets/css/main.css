@@ -64,7 +64,7 @@ section {
 }
 
 .section-bg {
-  background-color: rgb(124, 16, 16);
+  background-color: #eee;
 }
 
 .section-header {
@@ -78,7 +78,7 @@ section {
   font-weight: 400;
   margin: 0;
   padding: 0;
-  color: #ffffff;
+  color: #7f7f90;
   text-transform: uppercase;
   font-family: var(--font-default);
 }
@@ -264,7 +264,7 @@ section {
 # Header
 --------------------------------------------------------------*/
 .header {
-  background: rgb(0, 0, 0);
+  background: rgb(206, 18, 18);
   transition: all 0.5s;
   z-index: 997;
   height: 90px;
@@ -290,7 +290,7 @@ section {
 .header .logo h1 {
   font-size: 28px;
   font-weight: 700;
-  color: rgb(255, 255, 255);
+  color: #fff;
   margin: 0;
   font-family: var(--font-secondary);
 }
@@ -302,8 +302,8 @@ section {
 .header .btn-book-a-table,
 .header .btn-book-a-table:focus {
   font-size: 14px;
-  color: #fff;
-  background: var(--color-primary);
+  color: rgb(206, 18, 18);
+  background: rgba(255, 255, 255, 0.952);
   padding: 8px 20px;
   margin-left: 30px;
   border-radius: 50px;
@@ -312,8 +312,8 @@ section {
 
 .header .btn-book-a-table:hover,
 .header .btn-book-a-table:focus:hover {
-  color: #fff;
-  background: rgba(206, 18, 18, 0.8);
+  color: rgb(185, 20, 20);
+  background: rgba(220, 219, 219, 0.952);
 }
 
 section {
@@ -391,7 +391,7 @@ section {
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover>a {
-    color: rgb(212, 174, 174);
+    color: #000;
   }
 
   .navbar .dropdown ul {
@@ -405,7 +405,7 @@ section {
     opacity: 0;
     visibility: hidden;
     background: #fff;
-    box-shadow: 0px 0px 30px rgba(155, 36, 36, 0.856);
+    box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
     transition: 0.3s;
     border-radius: 4px;
   }
