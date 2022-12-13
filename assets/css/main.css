@@ -64,7 +64,7 @@ section {
 }
 
 .section-bg {
-  background-color: #eee;
+  background-color: rgb(124, 16, 16);
 }
 
 .section-header {
@@ -78,7 +78,7 @@ section {
   font-weight: 400;
   margin: 0;
   padding: 0;
-  color: #7f7f90;
+  color: #ffffff;
   text-transform: uppercase;
   font-family: var(--font-default);
 }
@@ -264,7 +264,7 @@ section {
 # Header
 --------------------------------------------------------------*/
 .header {
-  background: #fff;
+  background: rgb(0, 0, 0);
   transition: all 0.5s;
   z-index: 997;
   height: 90px;
@@ -290,7 +290,7 @@ section {
 .header .logo h1 {
   font-size: 28px;
   font-weight: 700;
-  color: #000;
+  color: rgb(255, 255, 255);
   margin: 0;
   font-family: var(--font-secondary);
 }
@@ -354,7 +354,7 @@ section {
     font-family: var(--font-secondary);
     font-size: 16px;
     font-weight: 600;
-    color: #7f7f90;
+    color: #ffffff;
     white-space: nowrap;
     transition: 0.3s;
     position: relative;
@@ -391,7 +391,7 @@ section {
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover>a {
-    color: #000;
+    color: rgb(212, 174, 174);
   }
 
   .navbar .dropdown ul {
@@ -405,7 +405,7 @@ section {
     opacity: 0;
     visibility: hidden;
     background: #fff;
-    box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+    box-shadow: 0px 0px 30px rgba(155, 36, 36, 0.856);
     transition: 0.3s;
     border-radius: 4px;
   }
@@ -578,7 +578,7 @@ section {
     content: "";
     position: fixed;
     inset: 0;
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.829);
     z-index: 9996;
   }
 }
@@ -588,6 +588,7 @@ section {
 --------------------------------------------------------------*/
 .about .about-img {
   height: 500px;
+  width:600px;
 }
 
 .about h3 {
@@ -602,7 +603,7 @@ section {
   right: 10%;
   bottom: 10%;
   background-color: #fff;
-  box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.08);
   padding: 20px;
   text-align: center;
 }
@@ -620,6 +621,9 @@ section {
   color: var(--color-primary);
 }
 
+.about .fst-italic p {
+  text-align:justify ;
+}
 .about .content ul {
   list-style: none;
   padding: 0;
